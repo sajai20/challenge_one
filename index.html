@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge 1</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <button class="btn_again" id="clear">clear</button>
+    <div class="container">
+        <label for="numner_one">Number 1</label>
+        <input type="number" id="number_one" placeholder="Enter number" />
+        <label for="number_two">Number 2</label>
+        <input type="number" id="number_two" placeholder="Enter number" />
+        <table>
+            <tr>
+                <td><button onclick="operator('/')" id="divide">/</button></td>
+                <td> <button onclick="operator('*')" id="multiply">*</button></td>
+                <td> <button onclick="operator('-')" id="subtract">-</button></td>
+                <td> <button onclick="operator('+')" id="add">+</button></td>
+            </tr>
+        </table>
+        <label for="result">Result</label>
+        <input type="number" id="result" placeholder="result" />
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
